@@ -4,9 +4,21 @@
 
     header nav {
         background-color:  tomato;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
     .nav-rightbar {
         display: none;
+    }
+    .hamburger {
+        margin-right: 15px;
+    }
+
+    .second-section {
+        padding-top: 100px;
     }
     .second-section .second-leftsection {
         display: none;
@@ -27,6 +39,9 @@
     .small-div {
         width: 90%;
         padding-left: 10%;
+    }
+    .small-div h2 {
+        padding-bottom: 15px;
     }
     .small-div button {
         padding: 5px 5px;
@@ -61,4 +76,13 @@
     }
 
 
+}
+@media screen and (min-width: 700px) {
+
+.mobile-nav {
+    display: none;
+}
+.hamburger {
+    display: none;
+}
 }
