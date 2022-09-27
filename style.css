@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.btn {
+    border-radius: 20px;
+     padding: 10px 10px;
+     cursor: pointer;
+
+}
+.btn-red {
+    color: white;
+    padding: 7px 15px;
+    border: 3px solid tomato;
+    background-color: tomato;
+}
+.btn-red:hover {
+    background-color: gray;
+    border: 2px solid gray;
+    transition: 1.5s;
+}
+.btn-white {
+    /* color: black; */
+    /* font-size: 18px; */
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.btn-white:hover {
+    background-color: gray;
+    transition: 1.5s;
+    color: white;
+    border: 2px solid gray;
+}
+/* header section starts here */
+header {
+    background: linear-gradient(to right, rgba(244, 107, 69, 0.2), rgba(238, 168, 73, 0.2)),url("./header.jpg");
+    background-size: cover;
+
+    background-position: center;
+    color: white;
+    /* height: 600px; */
+
+}
+header nav {
+    display: flex;
+}
+.nav-leftbar {
+    width: 50%;
+}
+.nav-leftbar h4 {
+    /* padding: 30px 15px 30px 50px; */
+    padding: 20px 0 20px 30px;
+     /* border: 3px solid tomato; */
+     font-size: 20px;
+}
+.nav-rightbar {
+    width: 50%;
+     display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-rightbar h4{
+    cursor: pointer;
+
+    padding: 20px 15px 20px 15px;
+
+
+}
+.second-section {
+    padding-top: 50px;
+    display: flex;
+}
+.second-section .second-leftsection {
+    width: 50%;
+    /* border: 3px solid black; */
+}
+.second-section .second-rightsection {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+} .second-rightsection h2 {
+    padding-bottom: 23px;
+}
+.second-rightsection button {
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+.first-icon {
+    padding-left: 10px;
+}
+/* /* header section ends here  */
+/* main section starts here */
+main {
+    background-color: white ;
+    padding: 30px 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.small-div {
+    background-color: tomato;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px 4%;
+    margin: 10px 10px;
+}
+
+.a:hover {
+    background-color: black;
+    cursor: grab;
+    transition: 1.5s;
+}
+.small-div h2 {
+     padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.small-div button {
+    color: tomato;
+    padding: 15px ;
+    font-size: 15px;
+    /* margin-top: 30px; */
+}
+.small-div p {
+    /* /* font-weight: bold/ */
+     padding-bottom: 20px;
+
+}
+/* main section ends here */
+/* section starts here */
+section {
+    padding: 25px;
+    background-color: tomato;
+    display: flex;
+    border: 3px solid tomato;
+    align-items: center;
+
+}
+section .third-leftsection {
+
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    color: white;
+
+
+}
+section .third-rightsection {
+    text-align: right;
+
+
+    width: 50%;
+}
+.third-rightsection button {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: tomato;
+}
+/* section ends here */
+/* footer section starts here */
+footer {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    padding: 25px;
+    display: flex;
+    /* font-size: 22px; */
+    padding-left: 4%;
+    padding-right: 5%;
+}
+.fourth-leftsection {
+    width: 50%;
+}
+.fourth-rightsection {
+    width: 50%;
+    text-align: right;
+     font-size: 23px;
+}
+/* footer section ends here */
