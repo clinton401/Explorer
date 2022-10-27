@@ -36,7 +36,7 @@
     background-color: gray;
     border: 2px solid gray;
     transition: 0.7s;
-    animation: bounce 3s linear;
+    animation: bounce 4s linear;
 }
 .btn-white {
     /* color: black; */
@@ -50,7 +50,7 @@
     transition: 0.7s;
     color: white;
     border: 2px solid gray;
-    animation: bounce 3s linear;
+    animation: bounce 4s linear;
 }
 /* header section starts here */
 header {
@@ -64,6 +64,8 @@ header {
 }
 header nav {
     display: flex;
+    /* backdrop-filter: blur(50px); */
+    transition: 20px;
     /* position: fixed;
     top: 0;
     width: 100%; */
@@ -133,6 +135,7 @@ header nav {
 }
 .mobile-nav {
     display: block;
+
     position: fixed;
       margin-top: 60px;
      /* margin-left: 50%; */
@@ -166,6 +169,8 @@ header nav {
 }
 .mobile-nav.is-active {
     left: 0;
+
+
 }
 .mobile-nav a:hover {
     background-color: white;

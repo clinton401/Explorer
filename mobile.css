@@ -7,6 +7,8 @@
         display: flex;
         justify-content: space-between;
         position: fixed;
+        backdrop-filter: blur(50px);
+        transition: 2s;
         top: 0;
         width: 100%;
     }
@@ -38,7 +40,7 @@
     }
     .small-div {
         width: 90%;
-        padding-left: 10%;
+        padding: 20px 30px;
     }
     .small-div h2 {
         padding-bottom: 15px;
