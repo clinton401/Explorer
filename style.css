@@ -117,6 +117,7 @@ header nav {
 .hamburger .bar, .hamburger::after, .hamburger::before {
     content: "";
     display: block;
+    border-radius: 10px;
     width: 100%;
     height: 5px;
     background-color: white;
