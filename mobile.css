@@ -42,6 +42,9 @@
         width: 90%;
         padding: 20px 30px;
     }
+    .small-div p {
+        font-size: 13px;
+    }
     .small-div h2 {
         padding-bottom: 15px;
     }
